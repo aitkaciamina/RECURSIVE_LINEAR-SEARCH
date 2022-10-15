@@ -1,0 +1,25 @@
+// RECURSIVE LINEAR SEARCH
+
+#include <iostream>
+using namespace std;
+void linear_search(int arr[],int k,int s)
+{
+    
+    if (n<=0)
+    cout<<"underflow"<<endl;
+    else
+    {
+        if(arr[n]==k)
+        cout<<"found at pos : "<<n<<endl;
+        else
+        {
+            cout<<linear_search(arr,n-1,k);
+            break;
+        }
+    }
+}
+int main()
+{
+    
+    return 0;
+}
